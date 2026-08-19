@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local models and generated runtime
+models/
+vendor/
+build/
+dist/
+
+# Local settings, logs and temporary files
+*.log
+*.tmp
+*.new-*
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+
