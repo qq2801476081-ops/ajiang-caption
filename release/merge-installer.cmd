@@ -5,7 +5,7 @@ cd /d "%~dp0"
 set "PART1=Ajiang-Caption-0.9.3-Installer.exe.part1"
 set "PART2=Ajiang-Caption-0.9.3-Installer.exe.part2"
 set "OUTPUT=Ajiang-Caption-0.9.3-Installer.exe"
-set "EXPECTED=BE176A8806B65E93C6A6A471372110E1D954574F598A39EAA4305329E26B74F0"
+set "EXPECTED=82255F1D71CD8720285817D6201A40A520B32EDFF834DB39545B2CDF5D312335"
 
 if not exist "%PART1%" goto missing
 if not exist "%PART2%" goto missing
@@ -42,4 +42,3 @@ echo Actual:   %ACTUAL%
 del /q "%OUTPUT%" >nul 2>nul
 pause
 exit /b 1
-
